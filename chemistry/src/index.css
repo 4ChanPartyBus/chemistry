@@ -1,0 +1,133 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('fonts/MontserratAlternates-Regular.otf') format("truetype");
+}
+body {
+  background-color: #F64F59;
+}
+.biology {
+  position: fixed;
+  width: 14vw;
+  height: 5.5vh;
+  font-size: 2vw;
+  top: 50vh;
+  left: 20vw;
+  background-color: #4bb8b0;
+  border-radius: 60px;
+  font-family: 'Pangolin', cursive;
+  border: 0;
+}
+.biology:hover {
+  cursor: pointer;
+}
+.chemistry {
+  position: fixed;
+  width: 14vw;
+  height: 5.5vh;
+  top: 50vh;
+  right: 20vw;
+  font-size: 2vw;
+  background-color: #4bb8b0;
+  border-radius: 60px;
+font-family: 'Montserrat';
+  border: 0;
+  /* drug font? */
+}
+.chemistry:hover {
+  cursor: pointer;
+}
+.gradient {
+  position:absolute;
+  left: 0;
+  top:0;
+  width: 100vw;
+  height: 100vh;
+background: rgb(18,194,233);
+background: -moz-linear-gradient(90deg, rgba(18,194,233,1) 0%, rgba(196,113,237,1) 50%, rgba(246,79,89,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(18,194,233,1) 0%, rgba(196,113,237,1) 50%, rgba(246,79,89,1) 100%);
+background: linear-gradient(90deg, rgba(18,194,233,1) 0%, rgba(196,113,237,1) 50%, rgba(246,79,89,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#12c2e9",endColorstr="#f64f59",GradientType=1);
+
+/* background: -moz-linear-gradient(90deg, rgba(190,112,112,1) 30%, rgba(63,152,146,1) 70%);
+  background: -webkit-linear-gradient(90deg, rgba(190,112,112,1) 30%, rgba(63,152,146,1) 70%);
+  background: linear-gradient(90deg, rgba(190,112,112,1) 30%, rgba(63,152,146,1) 70%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be7070",endColorstr="#3f9892",GradientType=1); */
+}
+.box {
+  width: 90vw;
+  /* border: 1px solid #D7424B; */
+  left: 5vw;
+  top: 3vh;
+  position: absolute;
+  border-radius: 15px;
+  font-family: 'Pangolin', cursive;
+  height: 90vh;
+  white-space: initial;
+  overflow-y: auto;
+  background-color: #D7424B;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+::-webkit-scrollbar { 
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C04B51; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #963c41; 
+}
+.text {
+  padding-left: 30px;
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+  color: white;
+  /* line-height: 10px; */
+}
+.files {
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  width: calc(100% - 50px);
+  height: auto;
+  min-height: 50px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  background-color: #E0B0B3;
+  flex-basis: 100%;
+}
+.file {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  text-decoration: none;
+}
+.flImg {
+  width: 17px;
+  height: 27px;
+  padding-top: 12px;
+  padding-right: 5px;
+  position: relative;
+}
+/* .fileName:hover, .fileName:visited, .fileName:link, .fileName:active {
+  color: #FFFFFF;
+  text-decoration: none;
+  
+} */
+hr {
+  border: 0.5px solid black;
+  border-radius: 1px;
+  align-content: left;
+  width: calc(100% - 20px);
+}
